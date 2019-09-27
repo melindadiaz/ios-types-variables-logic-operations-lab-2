@@ -33,7 +33,11 @@ let number = 2
 
 // your code here
 ```
-
+if number % 2 == 0 {
+print("Even")
+} else {
+print("odd")
+}
 ***
 ## Question 3
 
@@ -45,7 +49,10 @@ var b = 3
 
 // code here
 ```
-
+if a % b == 0 {
+print("Even")
+} else {
+print("odd")
 ***
 ## Question 4
 
@@ -58,7 +65,11 @@ var c = 2
 
 // your code here
 ```
-
+if a == b || b == c || c == a {
+print("At least two variables have the same value")
+} else {
+    print("All values are different")
+}
 ***
 ## Question 5
 
@@ -70,6 +81,16 @@ var eggsAge = 12 // eggs are 12 days old
 
 // your code here
 ```
+if baconAge < 8 && eggsAge < 22 {
+    print("you can cook baconnwith eggs")
+} else if baconAge > 7 && eggsAge > 21 {
+    print("Throw out bacon")
+    print("throw out eggs")
+} else if baconAge > 7 {
+    print("throw out bacon")
+} else if eggsAge > 21 {
+    print("throw out eggs")
+}
 
 ***
 ## Question 6
