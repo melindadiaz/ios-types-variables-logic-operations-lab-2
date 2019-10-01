@@ -22,7 +22,13 @@ var grade3 = 5.0
 
 // your code here
 ```
-
+var AveGrade = (grade1 + grade2 + grade3) /3
+var yourGrade = 5.0
+if yourGrade >  AveGrade {
+    print("above average")
+}  else {
+    print("below average")
+}
 ***
 ## Question 2
 
@@ -91,7 +97,6 @@ if baconAge < 8 && eggsAge < 22 {
 } else if eggsAge > 21 {
     print("throw out eggs")
 }
-
 ***
 ## Question 6
 
@@ -103,7 +108,20 @@ let year = 2014
 
 // your code here
 ```
-
+let year = 2014
+if year % 4 == 0 && year % 100 != 0 || year % 400 == 0 {
+    print("its a leap year")
+}
+else {
+    print("its not")
+}
+var AveGrade = (grade1 + grade2 + grade3)
+var yourGrade = (AveGrade/3.0)
+if yourGrade >= AveGrade {
+    print("above average")
+}  else {
+    print("below average")
+}
 ***
 ## Question 7
 
@@ -114,6 +132,12 @@ let randomNum = Int.random(in: 0...100)
 
 // your code here
 ```
+let randomNum = Int.random(in: 0...100) % 2
+if randomNum == 0 {
+    print("heads")
+} else {
+    print("tails")
+}
 
 Hint: use an if/else block along with the `%` operator
 
@@ -178,7 +202,7 @@ c. Integer types in computers take up a fixed amount of memory.
 d. Integers may contain decimals.
 
 ```
-
+c
 
 ***
 ## Question 12
@@ -213,6 +237,14 @@ b %= c
 print(a + b + c)
 
 ```
+20 += 5 =25
+5 -= 4 = 1
+5 * (4 + 20) = 120
+(5 * 4) +20 = 40
+5 % 20 = 0
+5 % 4 = 1
+
+20 + 5 + 4 = 29
 
 ***
 ## Question 14
